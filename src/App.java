@@ -108,16 +108,42 @@ public class App {
     numCupcakes += 8;
     System.out.println(numCupcakes);
     // numCupcakes is 20; just like using the + operator
-
+    
     // assignment operator can be used on all arithmetic operators
     // Addition ------- +=
     // Subtraction ---- -=
     // Multiplication - *=
     // Division ------- /= 
     // Modulo --------- %=
-
+    
     int moduloNum = 15;
     moduloNum %= 3;
     System.out.println(moduloNum);
+
+    // Order of Operations -------------------------------------------------------------------------------------------------------------------
+    // if multiple operators are placed inside a single expression, which operation would evaluate first?
+    int num = 5 * (10 - 4) + 4 / 2;
+    // Subtraction because it is in parentheses
+    
+    // Operations that share priority/precedence are evaluated from left-to-right
+    // The order is:
+    // 1. Parentheses
+    // 2. Exponents
+    // 3. Modulo/Multiplication/Division
+    // 4. Addition/Subtraction
+    
+    // dissect the previous expression:
+    // 5 * (10 - 4) + 4 / 2
+    // Parentheses is first, 10 - 4 = 6
+    // 5 * 6 + 4 / 2
+    // Multiplication and Division have priority over Addition
+    // Multiplicaiton is evaluated first because it's to the left of Division
+    // 5 * 6 = 30
+    // 30 + 4 / 2
+    // Division has priority
+    // 4 / 2 = 2
+    // 30 + 2 = 32
+    System.out.println(num);
+    // evaluates to 32, like mentioned above
   }
 }

@@ -94,3 +94,28 @@ A customer comes and buys 3 cookies. Use the appropriate compound assignment ope
 Another customer buys half of the remaining cookies.
 
 Use the appropriate compound assignment operator to reflect this change.
+
+## Operations
+
+```
+public class Operations {
+	public static void main(String[] args) { 
+
+    int expression1 = 5 % 2 - (4 * 2 - 1);
+    // System.out.println(expression1);
+
+    int expression2 = (3 + (2 * 2 - 5)) + 6 - 5;
+    // System.out.println(expression2);
+
+    int expression3 = 5 * 4 % 3 - 2 + 1;
+    // System.out.println(expression3);
+
+	}
+}
+```
+
+Take a look at the expressions in Operations.java.
+
+Solve for the value of each of the expressions on your own.
+
+To find out if your calculations are right, uncomment the print statements and run the code.
