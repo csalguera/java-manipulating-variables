@@ -87,7 +87,7 @@ public class BakeSale {
 }
 ```
 
-You are also in charge of keeping track of how many cookies there are at the bake sale. This value is represented by the variable numCookies.
+You are in charge of keeping track of how many cookies there are at the bake sale. This value is represented by the variable numCookies.
 
 A customer comes and buys 3 cookies. Use the appropriate compound assignment operator to reflect this change.
 
