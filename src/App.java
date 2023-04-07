@@ -149,16 +149,35 @@ public class App {
     // Greater Than or Less Than -------------------------------------------------------------------------------------------------------------------
     // Java has relational operators for numeric data types that make boolean comparisons
     // these include < (less than) and > (greater than)
-
+    
     double newerBalance = 20000.1;
     double amountToWithdraw = 5000.1;
     System.out.println(amountToWithdraw < newerBalance);
     // prints true because amountToWithdraw value is less than newerBalance value
-
+    
     double myBalance = 200.5;
     double costOfBuyingNewLaptop = 1000.5;
     boolean canBuyLaptop = myBalance > costOfBuyingNewLaptop;
     System.out.println(canBuyLaptop);
     // prints false because myBalance value is less than costOfBuyingNewLaptop
+
+    // Equals and Not Equals -------------------------------------------------------------------------------------------------------------------
+    // == operator checks if two variables are equal:
+    double newPaycheckAmount = 620;
+    double calculatedPaycheck = 15.5 * 40;
+
+    System.out.println(newPaycheckAmount == calculatedPaycheck);
+    // evaluates to true
+
+    // equality check is two equal signs ==
+    // one equal sign is the assignment operator =
+    // to check if two variables are not equal, we use !=
+
+    double bankBalance = 20000.0;
+    double amountToDeposit = 620;
+    double updateBalance = bankBalance + amountToDeposit;
+
+    boolean balanceHasChanged = balance != updateBalance;
+    // evaluates to true because expression checks that both variables are not equal, which they are not
   }
 }
