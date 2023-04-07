@@ -25,6 +25,14 @@ public class Operations {
     System.out.println(expression2);
     
     int expression3 = 5 * 4 % 3 - 2 + 1;
-    // System.out.println(expression3);
+
+    // *: 5 * 4 = 20
+    // 20 % 3 - 2 + 1
+    // %: 20 % 3 = 2
+    // 2 - 2 + 1
+    // -: 2 - 2  = 0
+    // 0 + 1 = 1
+
+    System.out.println(expression3);
   }
 }
