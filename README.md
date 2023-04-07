@@ -72,3 +72,25 @@ public class Modulo {
 You are trying to split up students into groups of 3. How many students will be left out once the groups are made?
 
 Create a variable called leftOut that holds the modulo of students and 3. Then, print the variable!
+
+## BakeSale
+
+```
+public class BakeSale {
+	public static void main(String[] args) {   
+		int numCookies = 17;
+
+
+    // Add your code above
+    System.out.println(numCookies);
+	}
+}
+```
+
+You are also in charge of keeping track of how many cookies there are at the bake sale. This value is represented by the variable numCookies.
+
+A customer comes and buys 3 cookies. Use the appropriate compound assignment operator to reflect this change.
+
+Another customer buys half of the remaining cookies.
+
+Use the appropriate compound assignment operator to reflect this change.

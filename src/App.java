@@ -22,7 +22,7 @@ public class App {
     // an expression of two int values will evaluate to an int value
     
     // an expression of two double values will evaluate to a double value
-    
+
     // Addition and Subtraction -------------------------------------------------------------------------------------------------------------------
     // The + operator used in the previous example added the values of balance and depositAmount
     // If we wanted to withdraw, rather than deposit, the - operator would be used
@@ -47,7 +47,7 @@ public class App {
     numPicturesOfCats--;
     System.out.println(numPicturesOfCats);
     // value is 84, once more
-    
+
     // Multiplication and Division -------------------------------------------------------------------------------------------------------------------
     // Supposing and employer is calculating our paycheck and depositing it to our bank
     // We worked 40 hours at a rate of $15.50/hr
@@ -77,7 +77,7 @@ public class App {
     // if we try to divide by 0, we will get an ArithmeticException error as a result
     // int divideByZero = 100 / 0;
     // System.out.println(divideByZero);
-    
+
     // Modulo -------------------------------------------------------------------------------------------------------------------
     // The % modulo operator gives us the remainder after two numbers are divided
     int cookiesBaked = 10;
@@ -85,7 +85,7 @@ public class App {
     System.out.println(cookiesLeftover);
     // cookiesLeftover holds 1
     // 1 is the remainder after cookies are handed out in batches of 3
-
+    
     // modulo helps determine if a number is even or odd
     System.out.println(7 % 2);
     // 1 is leftover, therefore odd
@@ -93,5 +93,31 @@ public class App {
     // no remainder, therefore even
     System.out.println(9 % 2);
     // 1 leftover again, odd
+
+    // Compound Assignment and Operators -------------------------------------------------------------------------------------------------------------------
+    // we can adjust the value of variables
+    int numCupcakes = 12;
+    System.out.println(numCupcakes);
+    // numCupcakes is 12
+    // numCupcakes = numCupcakes + 8;
+    // System.out.println(numCupcakes);
+    // numCupcakes is now 20
+    
+    // we had to write our variable name twice with the + operator
+    // we can use the compound += assignment operator to shorten the syntax
+    numCupcakes += 8;
+    System.out.println(numCupcakes);
+    // numCupcakes is 20; just like using the + operator
+
+    // assignment operator can be used on all arithmetic operators
+    // Addition ------- +=
+    // Subtraction ---- -=
+    // Multiplication - *=
+    // Division ------- /= 
+    // Modulo --------- %=
+
+    int moduloNum = 15;
+    moduloNum %= 3;
+    System.out.println(moduloNum);
   }
 }
