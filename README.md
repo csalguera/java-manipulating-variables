@@ -224,3 +224,21 @@ Our zoo has 5 Masai Girrafes!
 ```
 
 Print out the variable zooDescription!
+
+## Final
+
+```
+public class Final {
+  public static void main(String[] args) {
+    
+  }
+}
+```
+
+Create an unchangeable double variable called pi and set its value to 3.14.
+
+Print the value of pi.
+
+On a new line, try to change the value of pi.
+
+What happens when the program is run?

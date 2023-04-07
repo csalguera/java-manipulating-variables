@@ -215,11 +215,18 @@ public class App {
     System.out.println("Your username is: " + username);
     // prints:
     // Your username is: PrinceNelson
-
+    
     int finalBalance = 10000;
     String message = "Your balance is: " + finalBalance;
     System.out.println(message);
     // prints:
     // Your balance is 10000
+
+    // final Keyword -------------------------------------------------------------------------------------------------------------------
+    // To declare a variable with a value that cannot be manipulated, we need to use the final keyword
+    // to use the final keyword, prepend final to a variable declaration:
+    final int yearBorn = 1968;
+    // when we declare a variable using final, the value cannot be changed; any attempts will cause an error:
+    // error: cannot assign a value to final variable yearBorn
   }
 }
