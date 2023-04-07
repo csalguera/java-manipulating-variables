@@ -145,5 +145,20 @@ public class App {
     // 30 + 2 = 32
     System.out.println(num);
     // evaluates to 32, like mentioned above
+
+    // Greater Than or Less Than -------------------------------------------------------------------------------------------------------------------
+    // Java has relational operators for numeric data types that make boolean comparisons
+    // these include < (less than) and > (greater than)
+
+    double newerBalance = 20000.1;
+    double amountToWithdraw = 5000.1;
+    System.out.println(amountToWithdraw < newerBalance);
+    // prints true because amountToWithdraw value is less than newerBalance value
+
+    double myBalance = 200.5;
+    double costOfBuyingNewLaptop = 1000.5;
+    boolean canBuyLaptop = myBalance > costOfBuyingNewLaptop;
+    System.out.println(canBuyLaptop);
+    // prints false because myBalance value is less than costOfBuyingNewLaptop
   }
 }
