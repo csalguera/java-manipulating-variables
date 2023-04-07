@@ -35,3 +35,26 @@ Then, print your animalsInZoo variable.
 Two of the zebras have been traded to a neighboring rival zoo. Subtract 2 from the number of zebras and store the result in a variable called numZebrasAfterTrade.
 
 Then, print the numZebrasAfterTrade variable!
+
+## Multiplication and Division
+
+```
+public class MultAndDivide {
+  public static void main(String[] args) {
+    double subtotal = 30;
+    double tax = 0.0875;
+  }
+}
+```
+
+In main(), there is a variable called subtotal, which represents the subtotal of an amount to pay on a bill, and a variable called tax, which represents the tax rate that will be applied to that subtotal.
+
+Create a double variable, total, that holds subtotal plus the product of subtotal and tax.
+
+Print the total variable!
+
+There were 4 people who bought this meal together and want to split the cost.
+
+Create a double variable called perPerson that holds total divided by 4.
+
+Print the perPerson variable!
