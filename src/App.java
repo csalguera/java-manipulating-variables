@@ -196,17 +196,30 @@ public class App {
     // To test equality with objects, we use a built-in method called .equals()
     // When comparing objects, always use .equals()
     // == occasionally works but that is because of how objects are stored in memory
-
+    
     // it is called/invoked on one String with dot notation
     // the second String is passed as the argument within the parenthese
-
+    
     String person1 = "Paul";
     String person2 = "John";
     String person3 = "Paul";
-
+    
     System.out.println(person1.equals(person2));
     // evaluates to false because the String "Paul" is not equal to the String "John"
     System.out.println(person1.equals(person3));
     // evaluates to true because the String "Paul" is equal to the String "Paul"
+
+    // String Concatenation -------------------------------------------------------------------------------------------------------------------
+    // the + operator can be used to concatenate Strings
+    String username = "PrinceNelson";
+    System.out.println("Your username is: " + username);
+    // prints:
+    // Your username is: PrinceNelson
+
+    int finalBalance = 10000;
+    String message = "Your balance is: " + finalBalance;
+    System.out.println(message);
+    // prints:
+    // Your balance is 10000
   }
 }

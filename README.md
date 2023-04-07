@@ -196,3 +196,31 @@ We have three lines from a song in Song.java.
 First, print out whether line1 and line2 are the same.
 
 Now, print whether line2 and line3 are equal.
+
+## Zoo
+
+```
+public class Zoo {
+  public static void main(String[] args){
+    int animals = 12;
+    String species = "zebra";
+  }       
+}
+```
+
+In our zoo, we have a certain number of animals, stored in animals, of a certain species, stored in species.
+
+Use + to make a new String variable called zooDescription. It should hold a String that looks like:
+
+```
+Our zoo has <animals>
+<species>s!
+```
+
+For example, if we had 5 animals that were all of the species Masai Giraffe, the String would say:
+
+```
+Our zoo has 5 Masai Girrafes!
+```
+
+Print out the variable zooDescription!
