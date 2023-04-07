@@ -58,3 +58,17 @@ There were 4 people who bought this meal together and want to split the cost.
 Create a double variable called perPerson that holds total divided by 4.
 
 Print the perPerson variable!
+
+### Modulo
+
+```
+public class Modulo {
+  public static void main(String[] args) {
+    int students = 26;
+  }
+}
+```
+
+You are trying to split up students into groups of 3. How many students will be left out once the groups are made?
+
+Create a variable called leftOut that holds the modulo of students and 3. Then, print the variable!

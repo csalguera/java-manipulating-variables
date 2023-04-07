@@ -55,14 +55,14 @@ public class App {
     double paycheckAmount = 40 * 15.5;
     System.out.println(paycheckAmount);
     // value is 620.00
-
+    
     // If we want to see how many hours our total balance represents, we use the / division operator
     double newBalance = 20010.5;
     double hourlyRate = 15.5;
     double hoursWorked = newBalance / hourlyRate;
     System.out.println(hoursWorked);
     // value is 1291.00
-
+    
     // division has different results with integers
     // the / operator does integer division. which means that any remainder is lost
     int evenlyDivided = 10 / 5;
@@ -71,11 +71,27 @@ public class App {
     int unevenlyDivided = 10 / 4;
     System.out.println(unevenlyDivided);
     // value is also 2 because 0.5, the remainder, is lost
-
+    
     // int doesn't round the decimal, but floors it
-
+    
     // if we try to divide by 0, we will get an ArithmeticException error as a result
-    int divideByZero = 100 / 0;
-    System.out.println(divideByZero);
+    // int divideByZero = 100 / 0;
+    // System.out.println(divideByZero);
+    
+    // Modulo -------------------------------------------------------------------------------------------------------------------
+    // The % modulo operator gives us the remainder after two numbers are divided
+    int cookiesBaked = 10;
+    int cookiesLeftover = 10 % 3;
+    System.out.println(cookiesLeftover);
+    // cookiesLeftover holds 1
+    // 1 is the remainder after cookies are handed out in batches of 3
+
+    // modulo helps determine if a number is even or odd
+    System.out.println(7 % 2);
+    // 1 is leftover, therefore odd
+    System.out.println(8 % 2);
+    // no remainder, therefore even
+    System.out.println(9 % 2);
+    // 1 leftover again, odd
   }
 }
