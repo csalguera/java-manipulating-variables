@@ -213,8 +213,7 @@ In our zoo, we have a certain number of animals, stored in animals, of a certain
 Use + to make a new String variable called zooDescription. It should hold a String that looks like:
 
 ```
-Our zoo has <animals>
-<species>s!
+Our zoo has <animals> <species>s!
 ```
 
 For example, if we had 5 animals that were all of the species Masai Giraffe, the String would say:
@@ -242,3 +241,38 @@ Print the value of pi.
 On a new line, try to change the value of pi.
 
 What happens when the program is run?
+
+## BankAccount
+
+```
+public class BankAccount {
+  public static void main(String[] args) {
+    double balance = 1000.75;
+    double amountToWithdraw = 250;
+  }
+}
+```
+
+To review, let’s try building some of the bank account functionality we talked about throughout the lesson.
+
+First, create a new double variable called updatedBalance, and store balance with amountToWithdraw subtracted from it.
+
+Now, you’ve decided to split your balance evenly 3 ways and give it to your three best friends.
+
+Create a double variable called amountForEachFriend that holds your updated balance divided by 3.
+
+Your friends each want to buy a concert ticket with the money you’ve given them. The tickets cost 250!
+
+Create a boolean called canPurchaseTicket and set it equal to whether or not amountForEachFriend is at least enough to purchase a concert ticket.
+
+Then, use System.out.println() to print canPurchaseTicket.
+
+How much money did you give your friends, anyway?
+
+Use + and System.out.println() to print out:
+
+```
+I gave each friend <amountForEachFriend>...
+```
+
+with the value of amountForEachFriend where `<amountForEachFriend>` is.
