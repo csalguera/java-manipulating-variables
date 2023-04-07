@@ -165,19 +165,30 @@ public class App {
     // == operator checks if two variables are equal:
     double newPaycheckAmount = 620;
     double calculatedPaycheck = 15.5 * 40;
-
+    
     System.out.println(newPaycheckAmount == calculatedPaycheck);
     // evaluates to true
-
+    
     // equality check is two equal signs ==
     // one equal sign is the assignment operator =
     // to check if two variables are not equal, we use !=
-
+    
     double bankBalance = 20000.0;
     double amountToDeposit = 620;
     double updateBalance = bankBalance + amountToDeposit;
-
+    
     boolean balanceHasChanged = balance != updateBalance;
+    System.out.println(balanceHasChanged);
     // evaluates to true because expression checks that both variables are not equal, which they are not
+
+    // Greater/Less Than or Equal To -------------------------------------------------------------------------------------------------------------------
+    // we can check if we got paid at least the amount expected by using the >= operator
+    // <= is the less than or equal to operator
+
+    // using the variables from before:
+    // paycheckAmount, which holds the value 620
+    // and calculatedPaycheck, which holds the expression 15.5 * 40
+    System.out.println(paycheckAmount >= calculatedPaycheck);
+    // evaluates to true because 620 is greater than or equal to 620
   }
 }

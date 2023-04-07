@@ -158,3 +158,23 @@ To see if these are the same album, you’re going to compare the number of song
 First, create a variable called sameNumberOfSongs that stores whether the two albums have the same number of songs.
 
 Now, create a variable called differentLength that stores the result of checking whether the two album lengths are not the same.
+
+## GreaterThanEqualTo
+
+```
+public class GreaterThanEqualTo {
+  public static void main(String[] args) {
+    double recommendedWaterIntake = 8;
+    double daysInChallenge = 30;
+    double yourWaterIntake = 235.5;
+  }
+}
+```
+
+You have been trying to complete a 30 day challenge to drink enough water per day.
+
+Create a double variable called totalRecommendedAmount and set it to the product of the recommended water intake (recommendedWaterIntake) and the amount of days in the challenge (daysInChallenge).
+
+Create a boolean variable called isChallengeComplete and set it to the result of checking if your intake, yourWaterIntake, is at least as much as the totalRecommendedAmount.
+
+Then, print the isChallengeComplete variable.
