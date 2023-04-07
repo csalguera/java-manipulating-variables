@@ -2,9 +2,9 @@ public class App {
   public static void main(String[] args) {
     // Introduction ------------------------------------------------
     // We can manipulate Java variables via the usage of expressions, arithmetic operators, and more
-
+    
     // Java has built-in arithmetic operations that perform calculations on numeric values:
-
+    
     // declare initial balance
     double balance = 20000.99;
     // declare deposit amount
@@ -12,14 +12,40 @@ public class App {
     // store result of calculation in our original variable
     balance = balance + depositAmount;
     System.out.println(balance);
+    // balance is now 21000.99
     // balance + depositAmount is an expression
-
+    
     // the data types of variables determine which operations can be performed to manipulate it
-
+    
     // the data type of an expression is determined by the resulting value
-
+    
     // an expression of two int values will evaluate to an int value
-
+    
     // an expression of two double values will evaluate to a double value
+    
+    // Addition and Subtraction ------------------------------------
+    // The + operator used in the previous example added the values of balance and depositAmount
+    // If we wanted to withdraw, rather than deposit, the - operator would be used
+    double withdrawAmount = 500;
+    balance = balance - withdrawAmount;
+    System.out.println(balance);
+    // balance is now 20500.99
+    // assuming no amount would have been deposited, then balance would be 19500.99
+
+    // addition and subtraction work with the int type values
+    // if we had 60 pictures of cats and we took 24 more, we could use the following expression:
+    int numPicturesOfCats = 60 + 24;
+    System.out.println(numPicturesOfCats);
+    // value is 84
+
+    // we can use the ++ (increment operator) to increment the value by 1
+    numPicturesOfCats++;
+    System.out.println(numPicturesOfCats);
+    // value is now 85
+
+    // we can use the -- (decrement operator) to decrement the value by 1
+    numPicturesOfCats--;
+    System.out.println(numPicturesOfCats);
+    // value is 84, once more
   }
 }
