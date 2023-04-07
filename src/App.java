@@ -184,11 +184,29 @@ public class App {
     // Greater/Less Than or Equal To -------------------------------------------------------------------------------------------------------------------
     // we can check if we got paid at least the amount expected by using the >= operator
     // <= is the less than or equal to operator
-
+    
     // using the variables from before:
     // paycheckAmount, which holds the value 620
     // and calculatedPaycheck, which holds the expression 15.5 * 40
     System.out.println(paycheckAmount >= calculatedPaycheck);
     // evaluates to true because 620 is greater than or equal to 620
+
+    // .equals() -------------------------------------------------------------------------------------------------------------------
+    // With objects, such as Strings, we can't use the primitive equality operator
+    // To test equality with objects, we use a built-in method called .equals()
+    // When comparing objects, always use .equals()
+    // == occasionally works but that is because of how objects are stored in memory
+
+    // it is called/invoked on one String with dot notation
+    // the second String is passed as the argument within the parenthese
+
+    String person1 = "Paul";
+    String person2 = "John";
+    String person3 = "Paul";
+
+    System.out.println(person1.equals(person2));
+    // evaluates to false because the String "Paul" is not equal to the String "John"
+    System.out.println(person1.equals(person3));
+    // evaluates to true because the String "Paul" is equal to the String "Paul"
   }
 }

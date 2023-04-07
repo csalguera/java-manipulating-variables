@@ -178,3 +178,21 @@ Create a double variable called totalRecommendedAmount and set it to the product
 Create a boolean variable called isChallengeComplete and set it to the result of checking if your intake, yourWaterIntake, is at least as much as the totalRecommendedAmount.
 
 Then, print the isChallengeComplete variable.
+
+## Song
+
+```
+public class Song {
+  public static void main(String[] args){
+    String line1 = "Nah nah nah nah nah nah nah nah nah yeah";
+    String line2 = "Nah nah nah nah nah nah, nah nah nah, hey Jude";
+    String line3 = "Nah nah nah nah nah nah, nah nah nah, hey Jude";
+  }       
+}
+```
+
+We have three lines from a song in Song.java.
+
+First, print out whether line1 and line2 are the same.
+
+Now, print whether line2 and line3 are equal.
