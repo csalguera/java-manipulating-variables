@@ -77,13 +77,12 @@ Create a variable called leftOut that holds the modulo of students and 3. Then, 
 
 ```
 public class BakeSale {
-	public static void main(String[] args) {   
-		int numCookies = 17;
-
-
+  public static void main(String[] args) {   
+    int numCookies = 17;
+    
     // Add your code above
     System.out.println(numCookies);
-	}
+  }
 }
 ```
 
@@ -99,8 +98,7 @@ Use the appropriate compound assignment operator to reflect this change.
 
 ```
 public class Operations {
-	public static void main(String[] args) { 
-
+  public static void main(String[] args) { 
     int expression1 = 5 % 2 - (4 * 2 - 1);
     // System.out.println(expression1);
 
@@ -109,8 +107,7 @@ public class Operations {
 
     int expression3 = 5 * 4 % 3 - 2 + 1;
     // System.out.println(expression3);
-
-	}
+  }
 }
 ```
 
@@ -124,11 +121,11 @@ To find out if your calculations are right, uncomment the print statements and r
 
 ```
 public class GreaterLessThan {
-	public static void main(String[] args) {   
-		double creditsEarned = 176.5;
+  public static void main(String[] args) {   
+    double creditsEarned = 176.5;
     double creditsOfSeminar = 8;
     double creditsToGraduate = 180;
-	}
+  }
 }
 ```
 
