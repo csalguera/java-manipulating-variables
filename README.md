@@ -1,5 +1,21 @@
 ## Java Manipulating Variables
 
+## Contents
+
+* [GuessingGame](https://github.com/csalguera/java-manipulating-variables#guessing-game)
+* [PlusAndMinus](https://github.com/csalguera/java-manipulating-variables#plusandminus)
+* [MultAndDivide](https://github.com/csalguera/java-manipulating-variables#multiplication-and-division)
+* [Modulo](https://github.com/csalguera/java-manipulating-variables#modulo)
+* [BakeSale](https://github.com/csalguera/java-manipulating-variables#bakesale)
+* [Operations](https://github.com/csalguera/java-manipulating-variables#operations)
+* [GreaterLessThan](https://github.com/csalguera/java-manipulating-variables#greaterlessthan)
+* [EqualNotEqual](https://github.com/csalguera/java-manipulating-variables#equalnotequal)
+* [GreaterThanEqualTo](https://github.com/csalguera/java-manipulating-variables#greaterthanequalto)
+* [Song](https://github.com/csalguera/java-manipulating-variables#song)
+* [Zoo](https://github.com/csalguera/java-manipulating-variables#zoo)
+* [Final](https://github.com/csalguera/java-manipulating-variables#final)
+* [BankAccount](https://github.com/csalguera/java-manipulating-variables#bankaccount)
+
 ## Guessing Game
 
 ```
@@ -36,7 +52,7 @@ Two of the zebras have been traded to a neighboring rival zoo. `Subtract 2` from
 
 Then, `print` the `numZebrasAfterTrade` variable!
 
-## Multiplication and Division
+## MultAndDivide
 
 ```
 public class MultAndDivide {
